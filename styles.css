@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(30,30,30);
+    background-image: linear-gradient(to bottom right, rgb(30,30,30), rgb(89,89,89));
     color: whitesmoke;
 }
 
 header{
+    font-family: 'Titillium Web', sans-serif;
     font-size: 65px;
     text-align: left;
-
 }
 
 .bottomSection {
@@ -24,4 +24,15 @@ header{
     width: 35px;
     align-items: center;
     padding: 10px;
+}
+
+#BB {
+    height: 35%;
+    width: 20%;
+    margin: 1px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
 }
